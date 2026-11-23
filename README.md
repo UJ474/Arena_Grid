@@ -1,4 +1,4 @@
-# Arena_Grid
+# Arena Grid
 
 Arena is a React Native app that hosts multiple games under one roof. The first game is **Sudoku**; more will be added progressively. This document describes how the app is structured and how work flows, with no implementation code.
 

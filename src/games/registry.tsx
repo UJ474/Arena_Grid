@@ -1,5 +1,6 @@
 import { GameDefinition } from './types';
 import { SudokuGame } from './sudoku';
+import { Game2048 } from './game2048';
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { theme } from '@/theme';
@@ -56,8 +57,7 @@ export const GAME_REGISTRY: GameDefinition[] = [
     category: 'puzzle',
     icon: '⚂',
     accentColor: theme.colors.tintAmber,
-    component: () => <PlaceholderGame name="2048" />,
-    comingSoon: true,
+    component: Game2048,
   },
   {
     id: 'minesweeper',
